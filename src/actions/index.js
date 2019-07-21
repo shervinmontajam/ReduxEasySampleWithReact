@@ -1,7 +1,7 @@
-export const addPost = () => {
+export const addPost = post => {
   return {
     type : 'ADD_POST',
-    payload : {title:'New One!', description:'more about new one!', tag:'#newone'}
+    payload : post
   }
 }
 
