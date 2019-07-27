@@ -24,6 +24,7 @@ const selectedPostReducer = (selectedPost = null, action) => {
 
 //--> creating objects in the redux store. the name of the objects there in redux store are defined here
 //--> as songs, selectSong
+//--> at the end all the reducer functions will be one function when appilication starts
 export default combineReducers({
   postList: postListReducer,
   selectedPost: selectedPostReducer
